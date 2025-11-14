@@ -7,6 +7,7 @@ AI Usage: [Document any AI assistance used]
 Example: AI helped with inheritance structure and method overriding concepts
 """
 
+import random
 
 # ============================================================================
 # PROVIDED BATTLE SYSTEM (DO NOT MODIFY)
