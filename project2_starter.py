@@ -245,7 +245,7 @@ class Rogue(Player):
         # Hint: use random.randint(1, 10) and if result <= 3, it's a crit
         import random
         damage = self.strength
-        if random.randint(1, 10) <= 3
+        if random.randint(1, 10) <= 3:
             damage *= 2
             print(f"💥 CRITICAL HIT!")
 
