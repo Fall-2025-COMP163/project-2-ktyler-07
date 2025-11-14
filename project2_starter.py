@@ -249,6 +249,7 @@ class Rogue(Player):
         if random.randint(1, 10) <= 3:
             damage *= 2
             print(f"💥 CRITICAL HIT!")
+        target.take_damage(damage)
 
     def sneak_attack(self, target):
         """
